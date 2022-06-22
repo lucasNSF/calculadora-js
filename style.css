@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.8%;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdcecc;
+}
+
+/* Calculator */
+
+main {
+  background-color: #070707;
+  height: 450px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.7);
+}
+
+.panel {
+  position: relative;
+  height: 90px;
+  background-color: #b7b7b7;
+  border-radius: 10px;
+}
+
+.result-area {
+  position: absolute;
+  font-size: 5.5rem;
+  right: 8px;
+  top: 13px;
+}
+
+.buttons {
+  display: grid;
+  width: 250px;
+  grid-template-areas: 
+    'c plus-minus zero plus'
+    'one two three minus'
+    'four five six multiply'
+    'seven eight nine divide'
+    'dot equal equal equal';
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  border: none;
+  border-radius: 80px;
+  font-weight: bold;
+  background-color: #707070;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #828282;
+}
+
+.edit {
+  background-color: salmon;
+}
+
+.edit:hover {
+  background-color: #f08c81;
+}
+
+.operator {
+  background-color: lightsalmon;
+}
+
+.operator:hover {
+  background-color: #ffb08c;
+}
+
+#c {
+  grid-area: c;
+}
+
+#plus-minus {
+  grid-area: plus-minus;
+}
+
+#zero {
+  grid-area: 'zero';
+}
+
+#plus {
+  grid-area: plus;
+}
+
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+
+#three {
+  grid-area: three;
+}
+
+#minus {
+  grid-area: minus;
+}
+
+#four {
+  grid-area: four;
+}
+
+#five {
+  grid-area: five;
+}
+
+#six {
+  grid-area: six;
+}
+
+#multiply {
+  grid-area: 'multiply';
+}
+
+#seven {
+  grid-area: seven;
+}
+
+#eight {
+  grid-area: eight;
+}
+
+#nine {
+  grid-area: nine;
+}
+
+#divide {
+  grid-area: divide;
+}
+
+#dot {
+  grid-area: 'dot';
+}
+
+#equal {
+  grid-area: equal;
+}
