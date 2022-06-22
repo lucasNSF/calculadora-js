@@ -5,7 +5,7 @@ Projeto de Calculadora simples utilizando Javascript puro.
 <div align="center">
   Link do Projeto 👇🏽:
 
-  https://lucasNSF.github.io/calculadora-js/
+  https://lucasnsf.github.io/calculadora-js/
 </div>
 
 ## Tecnologias Utilizadas 🧑🏽‍💻
